@@ -1,5 +1,8 @@
 import serial
 
+########
+### 	This code was used to try reading the button values from the arduino 
+########
 ser = serial.Serial(port='com3',baudrate=9600,bytesize=serial.EIGHTBITS,parity=serial.PARITY_NONE,timeout=2)
 
 try:
